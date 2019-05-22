@@ -192,7 +192,7 @@ border-spacing: 0;
 }
  .photo .part1btn{
   padding: 8px 10px;
-  color: black;
+  color: white;
   border: 3px solid;
   background-color: unset;
   font-size: 15px;
@@ -211,11 +211,11 @@ font-family: 'Poppins', sans-serif;
 }
 h2{
   font-size: 40px;
-  color: black;
+  color: white;
   font-family: 'Poppins', sans-serif;
 }
 .photo p{
-  color: black;
+  color: white;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
 }
@@ -242,8 +242,8 @@ span{
 .information button{
   margin-left: 80px;
   padding: 10px 15px;
-  color: black;
-  border-color: black;
+  color: white;
+  border-color: white;
   background-color: unset;
   cursor: pointer;
 }
