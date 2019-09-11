@@ -28,6 +28,7 @@ line-height: 1;
 }
 ol, ul {
 list-style: none;
+  margin-left: 130px;
 }
 blockquote, q {
 quotes: none;
@@ -52,7 +53,7 @@ border-spacing: 0;
   color: white;
   font-size: 25px;
   font-family: 'Courgette', cursive;
-  margin-left: 80px;
+  margin-left: 130px;
 }
 .icon a{
   margin-left: 15px;
