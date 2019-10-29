@@ -1,0 +1,503 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+ margin-left: 130px;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+.first{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px;
+}
+.logo h1{
+  color: white;
+  font-size: 25px;
+  font-family: 'Courgette', cursive;
+  margin-left: 130px;
+}
+.icon a{
+  margin-left: 15px;
+  color: lightgrey;
+  text-decoration: none;
+}
+.dots{
+  height: 8px;
+  display: flex;
+   position: absolute;
+   top: 500px;
+   margin-left: 410px;
+}
+.dot1{
+  height: inherit;
+  width: 8px;
+  border-radius: 100%;
+  border: 2px solid #edc632;
+  margin-right: 10px;
+}
+.dot2{
+  background-color: #edc632;
+  height: inherit;
+  width: 8px;
+  border-radius: 100%;
+  border: 2px solid #edc632;
+  margin-right: 10px;
+}
+.dot3{
+  height: inherit;
+  width: 8px;
+  border-radius: 100%;
+  border: 2px solid #edc632;
+}
+.dots2{
+  height: 8px;
+  display: flex;
+  margin-left: 590px;
+  padding-bottom: 100px;
+}
+.dot2-1{
+  height: inherit;
+  width: 8px;
+  border-radius: 100%;
+  border: 2px solid #474747;
+  margin-right: 10px;
+}
+.dot2-2{
+  background-color: #474747;
+  height: inherit;
+  width: 8px;
+  border-radius: 100%;
+  border: 2px solid #474747;
+  margin-right: 10px;
+}
+.dot2-3{
+  height: inherit;
+  width: 8px;
+  border-radius: 100%;
+  border: 2px solid #474747;
+}
+.dots3{
+  height: 8px;
+  display: flex;
+  margin-left: 500px;
+  padding-top: 100px;
+}
+.dot3-1{
+  height: inherit;
+  width: 8px;
+  border-radius: 100%;
+  border: 2px solid silver;
+  margin-right: 10px;
+}
+.dot3-2{
+  background-color: #edc632;
+  height: inherit;
+  width: 8px;
+  border-radius: 100%;
+  border: 2px solid #edc632;
+  margin-right: 10px;
+}
+.dot3-3{
+  height: inherit;
+  width: 8px;
+  border-radius: 100%;
+  border: 2px solid silver;
+}
+.icon button{
+  margin-left: 20px;
+  color: white;
+  background: black;
+  font-size: 12px;
+  border-color: lightgrey;
+  padding: 5px 15px;
+}
+.second{
+  display: flex;
+  justify-content: space-between;
+  background: #edc632;
+  padding: 15px;
+}
+.menu ul li{
+  display: inline;
+  text-decoration: none;
+
+}
+.menu ul li a{
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 5px;
+  color: black;
+  font-size: 12px;
+}
+.searching input{
+  border: none;
+  background-color:  #edc632;
+}
+.searching ::placeholder{
+  color: black;
+}
+.searching button{
+  border: none;
+  background-color: #edc632;
+  font-size: 15px;
+}
+.photo{
+  background-image: url("babae.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 160px;
+  position: relative;
+}
+.see{
+  border-bottom: 3px solid #edc632;
+  padding-bottom: 3px;
+}
+ .photo .part1btn{
+  padding: 8px 10px;
+  color: white;
+  border: 3px solid;
+  background-color: unset;
+  font-size: 15px;
+font-family: 'Poppins', sans-serif;
+}
+.photo button{
+  padding: 10px 20px;
+  background-color: #eb773d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.photo h5{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  color: white;
+}
+h2{
+  font-size: 40px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.photo p{
+  color: white;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+}
+.information{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+h4{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+span{
+  font-weight: bolder;
+}
+.information button{
+  margin-left: 80px;
+  padding: 10px 15px;
+  color: white;
+  border-color: white;
+  background-color: unset;
+  cursor: pointer;
+}
+.information h4{
+  font-size: 15px;
+}
+.info2{
+  background-color: #faf9f7;
+  padding: 100px;
+}
+
+.info2 button{
+  color: white;
+  background: #eb773d;
+  font-size: 30px;
+  cursor: pointer;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.content button {
+  font-size: 50px;
+}
+.information1{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 50%;
+}
+.information p{
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+.part4{
+background-image: url("eari.jpg");
+background-position: center;
+background-size: cover;
+padding: 150px;
+}
+.part4 h2{
+  font-size: 40px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+.part4 p{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.part4btn{
+  padding: 10px 15px;
+  color: black;
+  border-color: black;
+  background-color: unset;
+  cursor: pointer;
+}
+.part5divs{
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+.part5divs h4{
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.part5divs p{
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+.part5divs button{
+  padding: 10px 15px;
+  color: black;
+  border-color: black;
+  background-color: unset;
+  cursor: pointer;
+}
+.part6{
+text-align: center;
+background: linear-gradient(rgba(0.2, 0.2, 0.2, 0), black), url(chia.jpg);
+background-position: top;
+background-size: cover;
+padding: 180px 100px;
+}
+.part6 h3{
+  font-size: 45px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.part6 p{
+  font-size: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.lastpart{
+  display: flex;
+  justify-content: space-around;
+  background: #474747;
+}
+.video1{
+  margin-left: 30px;
+  width: 50%;
+}
+.last-information h5{
+  color: white;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+.lastpart{
+  padding: 80px;
+}
+.last-information .iconstwo a{
+  margin-left: 10px;
+  text-decoration: none;
+  color: silver;
+}
+.last-information .charity,
+.last-information .twiiter-feed,
+.last-information .newsletter{
+  width: 33,33%;
+}
+.last-information p{
+  color: silver;
+  text-align: left;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+.last-information h6{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form {
+  display: flex;
+}
+.form button{
+  display: flex;
+  border: 2px solid #edc632;
+  padding: 5px 15px;
+  margin-right: 25px;
+  background: unset;
+  color: #edc632;
+}
+.form input{
+  display: flex;
+  border-color: silver;
+  padding: 6px 50px 6px 4px;
+  border: 2px solid silver;
+  border-right: unset;
+  background: #474747;
+}
+::placeholder {
+  color: silver;
+}
+footer{
+  text-align: center;
+  padding: 20px;
+  color: silver;
+  font-size: 14px;
+  background: #2a2927;
+}
+.charity h5{
+  font-family: 'Courgette', cursive;
+}
+.content .information1 .side1,.side2,.side3{
+  display: flex;
+}
+.content .information1 .side1 p,.side2 p,.side3 p{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+@media only screen and (max-width:800px) {
+  .dots {
+  display: none;
+}
+.part5divs {
+    display: block;
+    justify-content: space-around;
+    padding: 30px;
+}
+  .photo {
+    background-image: url(babae.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 30px;
+    position: relative;
+}
+.second {
+    display: inline-block;
+    justify-content: space-between;
+    background: #edc632;
+    padding: 15px;
+}
+
+}
+@media only screen and (max-width:500px) {
+  .dots {
+display: none;
+}
+  .photo {
+    background-image: url(babae.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 30px;
+    position: relative;
+}
+.second {
+    display: inline-block;
+    justify-content: space-between;
+    background: #edc632;
+    padding: 15px;
+}
+.dots3{
+  display: none;
+}
+  .dots2 {
+  display: none;
+}
+  .lastpart {
+      display: block;
+      justify-content: space-around;
+      background: #474747;
+  }
+  .first {
+    display: block;
+    background-color: black;
+    padding: 10px;
+}
+h1{
+  padding-bottom: 10px;
+}
+.part5divs {
+    display: block;
+    justify-content: space-around;
+    padding: 30px;
+}
+.info2 {
+    background-color: #faf9f7;
+    padding: 10px;
+}
+.video1 {
+  display: none;
+}
+.content .information1 .side1, .side2, .side3 {
+    display: block;
+    margin-bottom: 20px;
+}
+.information {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
