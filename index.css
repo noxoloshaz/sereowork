@@ -501,3 +501,86 @@ h1{
     align-items: center;
     padding: 10px;
 }
+ @media only screen and (max-width:800px) {
+ .dots {
+  display: none;
+}
+.part5divs {
+    display: block;
+    justify-content: space-around;
+    padding: 30px;
+}
+  .photo {
+    background-image: url(babae.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 30px;
+    position: relative;
+}
+.second {
+    display: inline-block;
+    justify-content: space-between;
+    background: #edc632;
+    padding: 15px;
+}
+
+}
+@media only screen and (max-width:500px) {
+  .dots {
+display: none;
+}
+  .photo {
+    background-image: url(babae.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 20px;
+    position: relative;
+}
+.second {
+    display: inline-block;
+    justify-content: space-between;
+    background: #edc632;
+    padding: 15px;
+}
+.dots3{
+  display: none;
+}
+  .dots2 {
+  display: none;
+}
+  .lastpart {
+      display: block;
+      justify-content: space-around;
+      background: #474747;
+  }
+  .first {
+    display: block;
+    background-color: black;
+    padding: 10px;
+}
+h1{
+  padding-bottom: 10px;
+}
+.part5divs {
+    display: block;
+    justify-content: space-around;
+    padding: 30px;
+}
+.info2 {
+    background-color: #faf9f7;
+    padding: 10px;
+}
+.video1 {
+  display: none;
+}
+.content .information1 .side1, .side2, .side3 {
+    display: block;
+    margin-bottom: 20px;
+}
+.information {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+ }
